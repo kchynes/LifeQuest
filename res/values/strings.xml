@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LifeQuest</string>
+    <string name="title_section1">Home</string>
+    <string name="title_section2">View Quests</string>
+    <string name="title_section3">Create Quest</string>
+    <string name="title_section4">Achievements</string>
+    <string name="title_section5">About</string>
+    <string name="title_section6">Help</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_create_task">Add</string>
+    <string name="level_lbl">Level.</string>
+    <string name="level_val">1</string>
+    <string name="recent_tasks">Most Recent Quests</string>
+    <string name="view_tasks">Quests Remaining</string>
+    <string name="create_task_name">Create a Quest</string>
+    <string name="task_name">Quest Name</string>
+    <string name="task_location_lbl">Location:</string>
+    <string name="task_duration_lbl">Duration:</string>
+    <string name="task_name_lbl">Task Name:</string>
+    <string name="task_experience_lbl">Experience (XP):</string>
+    <string name="task_calculating">...</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_quit">Quit</string>
+    <string name="btn_finish">Finish</string>
+    <string name="btn_create">Create</string>
+    <string name="achievements">Achievements</string>
+
+    <string name="img_notification">Tap to Add a New Image.</string>
+    <string name="intro_main">Welcome to LifeQuest</string>
+    <string name="intro_form">Please fill out the form to begin Questing!</string>
+    
+    <!-- About Strings -->
+    <string name="about_version_label">Version:</string>
+    <string name="about_version">1.0</string>
+    <string name="about_author_label">Author:</string>
+    <string name="about_author">Casey Hynes</string>
+    <string name="about_date_label">Date:</string>
+    <string name="about_date">Dec. 15, 2014</string>
+    <string name="about_courseName_label">Course:</string>
+    <string name="about_courseNumber_label">Course Number:</string>
+    <string name="about_courseName">Programming V</string>
+    <string name="about_courseNumber">420-B51</string>
+    <string name="about_desc_label">Description:</string>
+    <string name="about_desc">LifeQuest is task list application that tries to make 
+        						everyday tasks fun again! Enter in Quests to gather Experience points 
+        						to build your LifeQuest Level. Don\'t forget to check out Achievements to 
+        						see how you\'re doing, and if you\'re good enough to get the Platnium Achievement.</string>
+    <string name="about_currentDate_label">Current Date</string>
+    <string name="about_currentDate">MMM.dd, yyyy 00:00</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="reg_name">Name:</string>
+    <string name="reg_yearborn">Year Born:</string>
+    
+    <!-- Help Strings -->
+    <string name="help_home">\t\tHome is your one stop shop to seeing how much 
+        Life you have Quested. Right off the bat, you are told how 
+        productive you are via your big blue level. Next you\'ll notice under it are your 
+        top three most recent Quests. Try to complete as many Quests to progress to the 
+        next Life Level!! Looking for more to do? No fear, swipe the left side of the 
+        screen to move to other pages and continue questing.</string>
+   <string name="help_quests">\t\tQuests are how you increase your life level, without them 
+       you\'d be doing chores like any other guy. You\'re better than that! Choose to View your Quests by
+       swiping the navigation bar and selecting \"View Quests\", you will see a list of everything remaining on your Journey. 
+       When you\'re ready, simply click on a Quest to view its information and either quit the Quest, or Finish to claim your Bounty.</string>
+   <string name="help_create">\t\tIf Quests are how you progress, then you probably 
+       need to create one first! No problem, we have you covered. You can either open 
+       the navigation drawer and choose \"Create Quest\" or tap the + button at the top right 
+       corner. Now you can add an Image, set your task name, and how many hours. You may notice 
+       that we calculate your location, we\'re nice like that, and once you\'ve filled each field 
+       we also calculate your Quest XP worth. The easier the Quest, the less the XP, and vice versa,  
+       so what are you doing? Get out there are start Questing!</string>
+   <string name="help_achievements">\t\tAchievements 
+         are a list of all the crazy things you have done in LifeQuest. It can be accessed at anytime by 
+          swiping the navigation drawer open and tapping \"Achievements\". From there you\'ll see the achievements 
+           clever names, descriptions, and the trophy type if you were a good enough Quester to complete them. 
+            It\'s always good practice to check out the achievements to see how to get them! You may have 
+            a high LifeQuest Level, but are you good enough to earn the infamous platnium achievement?</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llQuestView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:padding="@dimen/activity_vertical_margin"
+    android:weightSum="4" >
+
+    <TextView
+        android:id="@+id/tvQuestDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.6" 
+        android:gravity="center_vertical|right"
+        android:fontFamily="sans-serif-thin"
+        android:text=""
+        android:textSize="@dimen/small"/>
+ 
+    <TextView
+        android:id="@+id/tvQuestName"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+        android:gravity="center_vertical"
+        android:text=""
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/small" >
+
+    </TextView>
+     
+    <TextView
+        android:id="@+id/tvQuestExperience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:gravity="center_horizontal|center_vertical"
+        android:text=""
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/small" >
+
+    </TextView>
+
+</LinearLayout>

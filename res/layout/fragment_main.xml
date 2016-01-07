@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="3"
+    tools:context="ca.chynes_b51_final.MainActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_weight="1.2"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvLevelVal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ic_life_quest_large"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/level_val"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/level_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvLevelLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/lbl_margin"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/level_lbl"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/med" />
+
+        <ProgressBar
+            android:id="@+id/pbCurLevel"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="@dimen/level_prog_width"
+            android:layout_height="wrap_content"
+            android:max="250" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_weight="1.8"
+        android:orientation="vertical"
+        android:weightSum="2" >
+
+        <TextView
+            android:id="@+id/tvMostRecentTasks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|left"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/recent_tasks"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/med" />
+
+        <TextView
+            android:id="@+id/tvViewQuestTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacer"
+            android:background="@color/blue" />
+
+        <ListView
+            android:id="@+id/lvMostRecentTasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_vertical_margin" >
+
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

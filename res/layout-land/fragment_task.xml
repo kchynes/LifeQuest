@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:weightSum="3" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_weight="1.15"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvViewQuestTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/task_name"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/title" />
+
+        <TextView
+            android:id="@+id/tvViewTaskSpacer"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacer"
+            android:background="@color/blue" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ivTaskImage"
+                android:layout_width="@dimen/img_width"
+                android:layout_height="@dimen/img_height"
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:background="@drawable/image_background"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_life_quest" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="3" >
+
+                <TextView
+                    android:id="@+id/tvLocationLbl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/lbl_margin"
+                    android:layout_weight="1.8"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="right"
+                    android:text="@string/task_location_lbl"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/med" />
+
+                <TextView
+                    android:id="@+id/tvLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="TextView"
+                    android:textSize="@dimen/med" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="3" >
+
+                <TextView
+                    android:id="@+id/tvDurationLbl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/lbl_margin"
+                    android:layout_weight="1.8"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="right"
+                    android:text="@string/task_duration_lbl"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/med" />
+
+                <TextView
+                    android:id="@+id/tvDuration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="TextView"
+                    android:textSize="@dimen/med" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="3" >
+
+                <TextView
+                    android:id="@+id/tvExperienceLbl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/lbl_margin"
+                    android:layout_weight="1.8"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="right"
+                    android:text="@string/task_experience_lbl"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/med" />
+
+                <TextView
+                    android:id="@+id/tvCalcExperience"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:fontFamily="sans-serif-thin"
+                    android:text="TextView"
+                    android:textSize="@dimen/med" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:gravity="center_horizontal|center_vertical"
+        android:weightSum="3" >
+
+        <Button
+            android:id="@+id/btnCancelTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_weight="0.4"
+            android:background="@drawable/buttons_secondary"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/btn_quit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/med" />
+
+        <Button
+            android:id="@+id/btnFinishTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_weight="0.4"
+            android:background="@drawable/buttons_primary"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/btn_finish"
+            android:textColor="@color/white"
+            android:textSize="@dimen/med" />
+
+    </LinearLayout>
+
+</LinearLayout>

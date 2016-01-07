@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ca.chynes_b51_final.MainActivity" >
+
+    <item
+        android:id="@+id/action_create"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_create_task"
+        android:title="@string/action_create_task"/>
+    
+    <item
+        android:id="@+id/action_achievements"
+        android:orderInCategory="110"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_medal_icon"
+        android:title="@string/title_section4"/>
+
+</menu>

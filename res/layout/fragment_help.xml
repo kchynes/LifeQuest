@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_weight="0.05"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvHelpTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/title_section6"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/title" />
+
+        <TextView
+            android:id="@+id/tvHelpSpacer"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spacer"
+            android:background="@color/blue" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/svHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="9.95" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/activity_vertical_margin"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tvHelpHomeTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/lbl_margin"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/title_section1"
+                        android:textSize="@dimen/med" />
+
+                    <TextView
+                        android:id="@+id/tvHelpHome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/help_home"
+                        android:textSize="@dimen/tiny" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ivHelpHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/activity_vertical_margin"
+                    android:layout_weight="2"
+                    android:src="@drawable/ic_home" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:weightSum="3" >
+
+                <ImageView
+                    android:id="@+id/ivHelpViewQuests"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/activity_vertical_margin"
+                    android:layout_weight="2"
+                    android:src="@drawable/ic_help_quests" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/activity_vertical_margin"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tvHelpViewQuestsTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/lbl_margin"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/title_section2"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/med" />
+
+                    <TextView
+                        android:id="@+id/tvHelpViewQuests"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/help_quests"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/tiny" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/activity_vertical_margin"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tvHelpCreateQuestTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/lbl_margin"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/title_section3"
+                        android:textSize="@dimen/med" />
+
+                    <TextView
+                        android:id="@+id/tvHelpCreateQuest"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/help_create"
+                        android:textSize="@dimen/tiny" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/ivHelpCreateQuest"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/activity_vertical_margin"
+                    android:layout_weight="2"
+                    android:src="@drawable/ic_help_create" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:weightSum="3" >
+
+                <ImageView
+                    android:id="@+id/ivHelpAchievements"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/activity_vertical_margin"
+                    android:layout_weight="2"
+                    android:src="@drawable/ic_help_achievements" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/activity_vertical_margin"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/tvHelpAchievementsTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/lbl_margin"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/title_section4"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/med" />
+
+                    <TextView
+                        android:id="@+id/tvHelpAchievements"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/help_achievements"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/tiny" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

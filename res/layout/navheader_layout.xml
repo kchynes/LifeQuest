@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_vertical_margin"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/tvHeader"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:gravity="bottom"
+		android:textStyle="bold"
+		android:layout_marginBottom="@dimen/lbl_margin"
+		android:layout_marginLeft="@dimen/lbl_margin"
+		android:layout_marginRight="@dimen/lbl_margin"
+		android:textAllCaps="true"
+		android:textSize="@dimen/tiny"
+		android:fontFamily="sans-serif"
+		android:textColor="@color/blue"
+        />
+    
+    
+
+</LinearLayout>
